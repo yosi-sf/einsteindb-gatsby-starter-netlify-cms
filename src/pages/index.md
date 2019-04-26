@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: World's First Strong Relativistic Linearizable Database
-image: /img/home-jumbotron.jpg
+image: /img/golden-gate-bridge-1596161_1920.jpg
 heading: Non-blocking reads in the past
 subheading: In-Memory Append-Log Post-Quantum Immutable Cache Storage
 mainpitch:
