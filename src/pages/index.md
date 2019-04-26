@@ -44,14 +44,18 @@ intro:
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
   heading: What we offer
-  description: EinsteinDB
+  description: >-
+    EinsteinDB solves the problem of geo-replication, append-only, and strong
+    causal consistency by ditching wall-clock calculations.  EinsteinDB achieves
+    convergent causal consistency by applying a partial order consensus to an
+    eventually-consistent data store.
 main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: A solution to the problem of overwritten histories
+  description: >-
+    We have integrated production-ready eventually consistent data stores
+    through metadata-transaction bartering and polling via Postgres, RocksDB,
+    and Cassandra with explicit causal consistency traces embedded as optimized
+    write tables through MariaDB/MySQL/SQLite.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
