@@ -1,21 +1,19 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: World's First Strong Relativistic Linearizable Database
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Non-blocking reads in the past
+subheading: In-Memory Append-Log Post-Quantum Immutable Cache Storage
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: Why EinsteinDB
+  description: >-
+    EinsteinDB is an opinionated scalable, multi-version, globally-distributed,
+    and synchronously-replicated in-memory database. 
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  EinsteinDB supports non-blocking reads in the past, lock-free read-only
+  transactions, and atomic schema changes. In order to support
+  externally-consistent distributed transactions at global scale, it uses a
+  novel CausetNet API that exposes and exploits clock uncertainty.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -46,11 +44,7 @@ intro:
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
   heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+  description: EinsteinDB
 main:
   heading: Great coffee with no compromises
   description: >
@@ -68,3 +62,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
